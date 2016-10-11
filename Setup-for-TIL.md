@@ -9,7 +9,7 @@
 
 ### 2. Install gollum
     $ sudo gem install gollum
-
+[https://github.com/gollum](https://github.com/gollum/gollum/wiki/Installation)
 
 #### error in my case
 ![installGollumError](./imge/installGollumError.png)
