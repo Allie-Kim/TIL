@@ -12,7 +12,7 @@
 [https://github.com/gollum](https://github.com/gollum/gollum/wiki/Installation)
 
 #### error in my case
-![installGollumError](./imge/installGollumError.png)
+![installGollumError](./img/installGollumError.png)
 
     $ brew install icu4c
     
