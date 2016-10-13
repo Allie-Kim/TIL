@@ -14,8 +14,10 @@ can't get memo($scope.memo) from controller.
 ```
 
 
+
 ### Root Cause
 * Directive like ng-if creates new scope. memoInputType and memo is not in same scope.
+
 
 
 ### Solution
