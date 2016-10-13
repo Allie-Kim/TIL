@@ -3,17 +3,13 @@
 ### problem
 
 ```xml
-  <div class="row" ng-if="memoInputType === 'textarea'">
-      <div class="col-md-10 col-md-offset-1">
-        <textarea class="form-control" rows="5" ng-model="$parent.memo" placeholder="한글{{$parent.maxByte / 2}}자/영문{{$parent.maxByte}}자" kr-input></textarea>
-      </div>
-    </div>
-    <div class="row" ng-if="memoInputType === 'input'">
-      <label class="col-md-2 control-label">{{memoLabel}}</label>
-      <div class="col-md-9">
-        <input type="text" class="form-control" placeholder="{{$parent.placeholder}}" ng-model="$parent.memo" kr-input>
-      </div>
-    </div>
+  <div ng-if="memoInputType === 'textarea'">
+    <textarea ng-model="memo"></textarea>
+  </div>
+  <div ng-if="memoInputType === 'input'">
+    <input type="text" ng-model="memo">
+  </div>
+  <button type="button" ng-click="ok()">{{okBtnText}}</button>
 ```
 
 ### References
