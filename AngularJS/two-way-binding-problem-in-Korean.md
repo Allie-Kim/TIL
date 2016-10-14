@@ -1,4 +1,4 @@
-# two way binding problem in Korean (and special characters like *, !..)
+# Two way binding problem in Korean (and special characters like *, !..)
 
 ### Problem
 When typing text in Korean, two way binding failed especially in IE(11).
@@ -9,7 +9,7 @@ When typing text in Korean, two way binding failed especially in IE(11).
 
 ### Root Causes
 Composed characters like Korean, Japanease and Chinese fire composition events which are compositionstart, compositioneupdate and compositionend.
-'compositionend' event is not fired when blur or focusout from the <input> only in IE(11).
+'compositionend' event is not fired when blur or focusout from the input, textarea etc.. only in IE(11).
 
 ### Solution
 'krInput' directive
