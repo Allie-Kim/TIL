@@ -1,3 +1,3 @@
 # Commands
 
-* **open . ** open finder in current path
+* **open .** : open finder in current path
