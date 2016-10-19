@@ -1,5 +1,7 @@
 # Vocabulary for writing
 
+* **a.k.a**: also known as
+
 * **brace**: 중괄호 {}
 
 * **bundling**: 구성한다 ,만든다, 세트로 구성해준다.  
