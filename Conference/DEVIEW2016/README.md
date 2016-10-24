@@ -39,6 +39,7 @@ Clean Front-End Development
 5년간의 네이버 웹엔진 개발/삽질기 그리고...  
 
 ### Keynote
+
 #### 이해진
 * 새로운 아이디어보다 기술력이 더 중요하다.
 
