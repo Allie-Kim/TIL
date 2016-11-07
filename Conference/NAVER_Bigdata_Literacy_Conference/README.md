@@ -6,4 +6,4 @@
 네이버 그린팩토리 2F 커넥트홀
 
 ### 스케줄
-![naver_schedule](../img/naver_bigdata.jpg)
+![naver_schedule](../../img/naver_bigdata.jpg)
