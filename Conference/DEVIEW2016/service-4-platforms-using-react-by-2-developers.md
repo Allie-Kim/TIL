@@ -15,7 +15,7 @@ Speaker: 심상민 [호갱노노](https://hogangnono.com/) 창업자
 * localhost 대신 Hosts 파일 수정을 통해 개발 도메인으로 접근   
 ex) 127.0.0.1 dev.hogangnono.com  
 * webpack 설정에서 위의 도메인으로 모듈을 띄움  
-![17page](./img/17page.png)
+![17page](../../img/17page.png)
 [발표자료 17page](http://www.slideshare.net/deview/125react24)
 
 ### React-Router
@@ -31,7 +31,7 @@ ex) index.html#/main
 * 클라이언트의 Action, Store, Component코드를 서버에서 사용
 * React-Router 코드를 서버에서 불러서 라우팅 처리
 * Iso 모듈을 이용해서 클라이언트 코드로 렌더링 수행  
-![32page](./img/32page.png)
+![32page](../../img/32page.png)
 [발표자료 32page](http://www.slideshare.net/deview/125react24)
 * 서버에서 실행할 수 없는 로직 분기처리  
 ex) window.alert, window.confirm  
