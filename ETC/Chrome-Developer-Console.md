@@ -12,11 +12,11 @@ getEventListeners($('selector'))
 
 #### to get the time of execution of a code block
 ````javascript
-**console.time('myTime');**
+console.time('myTime');
 for(var i=0; i < 100000; i++){
   2+4+5;
 }
-**console.timeEnd('mytime');**
+console.timeEnd('mytime');
 //Output - myTime:12345.00 ms
 ````
 
