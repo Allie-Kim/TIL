@@ -24,8 +24,8 @@ connect local to ngrok
 ngrok http 63342
 ```
 
-**Result**
-![ngrok-result](../img/ngrokResult.png)
+**Result**  
+![ngrok-result](../img/ngrokResult.png)  
 You can access **http://87555c2b.ngrok.io** or **https://87555c2b.ngrok.io**
 
 ### References
