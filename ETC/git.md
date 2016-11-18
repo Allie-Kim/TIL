@@ -1,0 +1,8 @@
+# git
+
+### .gitignore 
+```
+.idea
+server/node_modules
+npm-debug.log
+```
