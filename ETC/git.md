@@ -11,8 +11,8 @@ npm-debug.log
 
 
 
-# git commands
-### diff
+# git commands  
+### diff  
 
 ```
 git diff
@@ -72,27 +72,32 @@ git push --tags
 ```
 push new tags
 
-### rebase
+### rebasing
 MERGE COMMITS ARE BAD.
 Alternatively, rebase is better.
 
 **case of conflict when push**   
-1. git fetch: sync with remote (not merge)  
+1. git fetch: sync with remote (not merge) - 같은 파일 충돌날때마다 git fetch & rebase 반복  
 2. git rebase: move all changes to master which are not in origin/master to a temp area (sync이후의 수정사항을 임시공간에 이동)  
-3. run all origin/master commits  
-4. run all commits in the temp area, one at a time.
+  ```
+  git fetch
+  git rebase
+  ```
+3. solve the conflicted file (ex.remove conflict msg like <<< HEAD..)  
+4. ``` git add [file] ```  
+5. ``` git rebase --continue ```  
+6. ``` git push ```   
 
+**in case of not conflict**
 ```
-git fetch
-git rebase
-git checkout admin
+git checkout kennel
 git rebase master
 git checkout master
-git merge admin
-
+git merge kennel
+```
 
 #### references
-
+* [Code School: Git Real](https://www.codeschool.com/courses/git-real)
 
 
 
