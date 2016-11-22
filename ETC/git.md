@@ -12,7 +12,7 @@ npm-debug.log
 
 
 # git commands
-#### diff
+### diff
 
 ```
 git diff
@@ -27,7 +27,7 @@ git diff --staged
 show staged differences  
 
  
-#### reset
+### reset
 ```
 git reset HEAD <file>
 ```
@@ -47,7 +47,7 @@ git reset --hard HEAD^
 ```
 undo last commit and all changes
 
-#### tagging
+### tagging
 A tag is a reference to a commit (used mostly for release versioning)
 ```
 git tag
@@ -71,6 +71,28 @@ add a new tag
 git push --tags
 ```
 push new tags
+
+### rebase
+MERGE COMMITS ARE BAD.
+Alternatively, rebase is better.
+
+**case of conflict when push**   
+1. git fetch: sync with remote (not merge)  
+2. git rebase: move all changes to master which are not in origin/master to a temp area (sync이후의 수정사항을 임시공간에 이동)  
+3. run all origin/master commits  
+4. run all commits in the temp area, one at a time.
+
+```
+git fetch
+git rebase
+git checkout admin
+git rebase master
+git checkout master
+git merge admin
+
+
+#### references
+
 
 
 
