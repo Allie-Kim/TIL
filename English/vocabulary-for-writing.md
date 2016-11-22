@@ -2,7 +2,11 @@
 
 * **a.k.a**: also known as
 
-* **brace**: 중괄호 {}
+* **brace**: 중괄호 {}  
+  * () parentheses
+  * {} curly braces
+  * [] square brackets
+  * <> angle brackets
 
 * **bundling**: 구성한다 ,만든다, 세트로 구성해준다.  
 Tools for **bundling** assets come in a variety of shapes and sizes
