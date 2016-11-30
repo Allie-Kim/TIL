@@ -14,6 +14,8 @@ Tools for **bundling** assets come in a variety of shapes and sizes
 * **fidelity**: 충실도  
 High **fidelity** complex vector documents have been, and will continue to be, the sweet spot for SVG for two primary reasons.
 
+* **WIP**: work in progress
+
 
 * **setting up the environment**: 환경설정 세팅
 
