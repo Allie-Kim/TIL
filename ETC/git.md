@@ -89,7 +89,7 @@ Alternatively, rebase is better.
 6. ``` git push ```   
 
 **in case of not conflict**  
-when unsync with kennel & master (local)
+when unsync each other branch of local (local에서 각 브랜치가 각각 커밋된 상태)
 ```
 git checkout kennel
 git rebase master
@@ -97,7 +97,14 @@ git checkout master
 git merge kennel
 ```
 * ``` git rebase master ``` : master와 kennel에 공통 commit으로 돌아가고 그 이후는 temp area에 저장하고 master의 final commit을 kennel과 맞춤 -> master와 kennel은 sync가 맞게 되고 kennel의 새로운 commit만 새로운가지친 형태(master는 새로운 commit없고)
- 
+
+------
+```
+git rebase -i HEAD~3
+```
+when we need to alter last 3 commits in the same branch.  
+can change order or comment at the editor.  
+* HEAD^: last commit
 
 #### references
 * [Code School: Git Real](https://www.codeschool.com/courses/git-real)
