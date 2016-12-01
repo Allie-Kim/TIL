@@ -105,6 +105,31 @@ git rebase -i HEAD~3
 when we need to alter last 3 commits in the same branch.  
 can change order or comment at the editor.  
 * HEAD^: last commit
+ 
+
+### Stashing
+Modified tracked files and files in staging area are saved on stack. (본통 작업하다말고 다른 브랜치로 옮길 때)
+
+```
+git stash save (= git stach)
+```
+```
+git stash apply (= git stash apply stash@{0})
+```
+when confilting after apply command   
+git reset --hard HEAD
+-> git stash apply  
+
+```
+git stash list
+```
+```
+git stash drop
+```
+```
+git stash pop ( = git stash apply + git stash drop)
+```
+
 
 #### references
 * [Code School: Git Real](https://www.codeschool.com/courses/git-real)
