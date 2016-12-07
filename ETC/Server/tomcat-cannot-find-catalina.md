@@ -1,6 +1,6 @@
 # Cannot find ./catalina.sh with sh startup.sh
 
-![notfoundcatalina](../img/cannot_find_catalina.png)
+![notfoundcatalina](../../img/cannot_find_catalina.png)
 
 #### Problem Solved
 ````
