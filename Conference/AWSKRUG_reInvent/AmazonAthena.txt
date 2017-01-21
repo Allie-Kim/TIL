@@ -1,0 +1,22 @@
+정리안된문서
+
+Amazon Athena를 이용한 데이터 분석하기
+김명보 VCNC(비트윈) 개발자
+
+Amazon Athena
+S3에 저장된 로그에 바로 query 실행가능
+
+기존에 Spark Cluster 사용
+Zeppelin에 Dashboard 만들어 사용
+문제점: 시간이 오래 걸리는 분석을 계속 돌릴 때는 유리하지만,
+쿼리가 드물게 수행되지만 빠를 응답을 원하는데는 부적절함
+
+제플린 데이터분석에서 쿼리선택 부분 확인해보기.
+
+아쉬운점.
+prestosql 기반이라서 mysql 하고 문법도 다르고, sql 표준 syntax strict 체크.
+토쿄, 서울 리전 아직 안 나옴
+
+
+
+
